@@ -1,0 +1,223 @@
+/*Universal Styles*/
+h1, h2, h3 {
+  font-family: 'Montserrat' sans-serif;
+}
+
+h5, h4, p, a, ul, li {
+  font-family: 'Open Sans' sans-serif;
+}
+
+a {
+  color: #97CABD;
+}
+/*End Universal Styles*/
+
+/*Body Styles*/
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#container {
+  min-height: 100%;
+  position: relative;
+}
+.masterBody {
+  /*padding-bottom:60px*/
+}
+/*End Body Styles*/
+
+/*Nav Menu Styles*/
+.navTitle {
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  color: #401841;
+  margin: auto;
+}
+/*End Nav Menu Styles*/
+
+/*Footer Styles*/
+.masterFooter {
+  width: 100%;
+  min-height: 100px;
+  background-color: #37486D;
+}
+.footerLeft {
+  color: white;
+  font-family: 'Open Sans' sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-top: 15px;
+}
+.footerCopy {
+  margin-right: 10px;
+}
+/*End Footer Styles*/
+
+/*Homepage Styles*/
+.homepageHero {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  background-color: #401841;
+  color: white;
+  padding: 5% 10%;
+}
+.homepageHero img {
+  max-width: 350px;
+  float: right;
+  border-radius: 50%;
+}
+.homepageImage {
+  float: right;
+
+}
+.intro {
+  float: left;
+  width: 45%;
+}
+.homepageFeatures {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.feature {
+  width: 300px;
+  height: 250px;
+  padding: 5%;
+  text-align: center;
+}
+/*End Homepage Styles*/
+
+/*Sub Page Styles*/
+.pageHero {
+  background-color: #401841;
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  padding: 5%;
+  justify-content: center;
+}
+/*End Sub Page Styles*/
+
+/*Hobby Page Styles*/
+.hobby {
+  padding: 5% 5% 15% 5%;
+  text-align: center;
+}
+.hobbyDescription {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.hobbyName {
+  text-transform: uppercase;
+  color: #519CA5;
+}
+.hobbyContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 5%;
+}
+.hobbyImage {
+  max-width: 200px;
+  height: auto;
+}
+
+#travelling {
+  margin-top: -10%;
+}
+/*End Hobby Page Styles*/
+
+/*About Me Styles*/
+.aboutMe, .aboutSite {
+  display: flex;
+  justify-content: space-around;
+  padding: 5% 5% 15% 5%;
+}
+
+#Me {
+  max-height: 400px;
+  margin-bottom: -10%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.aboutText {
+  width: 40%;
+}
+.contact {
+  padding-left: 5%;
+  text-transform: uppercase;
+  color: #519CA5;
+}
+.contactInfo {
+  text-transform: none;
+  font-size: 18px;
+  color: black;
+  padding-bottom: 5%;
+}
+/*End About Me Styles*/
+
+/*Portfolio Styles*/
+.portfolio {
+  display: flex;
+  flex-direction:column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 5% 5% 15% 5%;
+}
+.project {
+  width: 600px;
+  height: auto;
+  padding-bottom: 5%;
+}
+
+.github {
+  display: flex;
+  justify-content: center;
+  margin-top: -10%;
+  padding-bottom: 5%;
+}
+
+.projectImage {
+  max-height: 400px;
+  box-shadow: 5px 5px 5px #888888;
+  padding: 3%;
+}
+
+.projectdescription {
+  color: #401841;
+  text-transform: uppercase;
+}
+/*End Portfolio Styles*/
+
+/*Blog Styles*/
+.blog {
+  display: flex;
+  flex-direction:column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding: 5% 5% 10% 10%;
+}
+
+.blogTitle {
+  color: #519CA5;
+}
+/*End Blog Styles*/
+
+/*Media Queries*/
